@@ -1,11 +1,3 @@
-/* ================================================================
-   DEVCONF 2026 — styles.css
-   Full Design System · Peach Coral Theme — Updated with all sections
-   ================================================================ */
-
-/* ──────────────────────────────────────────────────────────────
-   1. CSS RESET
-   ────────────────────────────────────────────────────────────── */
 *,
 *::before,
 *::after {
@@ -18,7 +10,7 @@ html {
   scroll-behavior: smooth;
   -webkit-text-size-adjust: 100%;
 }
-
+git
 body {
   min-height: 100vh;
   line-height: 1.6;
