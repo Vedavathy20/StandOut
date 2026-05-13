@@ -1,0 +1,1059 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="StandOut 2026 — The Premier Developer Conference. March 15–16, 2026." />
+  <meta name="theme-color" content="#E97A73" />
+  <title>StandOut 2026</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ============================================================
+       STICKY NAVIGATION
+  ============================================================ -->
+  <header class="site-header" id="site-header">
+    <nav class="navbar" aria-label="Main Navigation">
+      <div class="nav-brand">
+        <span class="brand-text">StandOut</span>
+        <span class="brand-year">2026</span>
+      </div>
+
+      <!-- Breadcrumb Navigation -->
+      <ol class="breadcrumb" aria-label="Breadcrumb">
+        <li class="breadcrumb-item active" aria-current="page">Home</li>
+      </ol>
+
+      <ul class="nav-links" role="list">
+        <li><a href="#hero"      class="nav-link active" aria-current="page">Home</a></li>
+        <li><a href="#about"     class="nav-link">About</a></li>
+        <li><a href="#speakers"  class="nav-link">Speakers</a></li>
+        <li><a href="#schedule"  class="nav-link">Schedule</a></li>
+        <li><a href="#sponsors"  class="nav-link">Sponsors</a></li>
+        <li><a href="#contact"   class="nav-link">Contact</a></li>
+        <li><a href="#register"  class="nav-link nav-cta">Register</a></li>
+      </ul>
+
+      <!-- Mobile Hamburger -->
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle Navigation" aria-expanded="false">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- ============================================================
+       MAIN CONTENT
+  ============================================================ -->
+  <main id="main-content">
+
+    <!-- ── HERO SECTION ─────────────────────────────────────── -->
+    <section class="hero" id="hero" aria-label="Hero Section">
+
+      <!-- Promo Video Background -->
+      <video
+        class="hero-video"
+        autoplay
+        muted
+        loop
+        playsinline
+        aria-hidden="true"
+        poster="https://placehold.co/1920x1080/E97A73/FFFFFF?text=DevConf+2026"
+      >
+        <source src="assets/hero-promo.webm" type="video/webm" />
+        <source src="assets/hero-promo.mp4" type="video/mp4" />
+      </video>
+
+      <!-- Hero Overlay -->
+      <div class="hero-overlay" aria-hidden="true"></div>
+
+      <!-- Decorative blobs -->
+      <div class="hero-blob hero-blob--1" aria-hidden="true"></div>
+      <div class="hero-blob hero-blob--2" aria-hidden="true"></div>
+
+      <div class="hero-content">
+        <div class="hero-badge animate-fade-up">
+          <span class="badge-dot"></span>
+          Registration Now Open
+        </div>
+
+        <h1 class="hero-title animate-fade-up anim-delay-1">
+          <span class="title-line">Stand<span class="title-accent">Out</span></span>
+          <span class="title-year">2026</span>
+        </h1>
+
+        <p class="hero-subtitle animate-fade-up anim-delay-2">
+          The premier developer conference where ideas ignite,<br />
+          skills sharpen, and the future is built — together.
+        </p>
+
+        <div class="hero-meta animate-fade-up anim-delay-3">
+          <div class="meta-chip">
+            <span class="meta-label">Date</span>
+            <span>March 15–16, 2026</span>
+          </div>
+          <div class="meta-chip">
+            <span class="meta-label">Venue</span>
+            <span>Hyderabad International Convention Centre, India</span>
+          </div>
+        </div>
+
+        <div class="hero-actions animate-fade-up anim-delay-4">
+          <a href="#register" class="btn btn--primary">
+            <span>Secure Your Spot</span>
+            <span class="btn-arrow" aria-hidden="true">→</span>
+          </a>
+          <a href="#schedule" class="btn btn--ghost">View Schedule</a>
+        </div>
+      </div>
+
+      <!-- Scroll indicator -->
+      <div class="scroll-indicator" aria-hidden="true">
+        <div class="scroll-line"></div>
+        <span class="scroll-text">Scroll</span>
+      </div>
+    </section>
+
+    <!-- ── ABOUT SECTION ─────────────────────────────────────── -->
+    <section class="about-section section" id="about" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="section-tag">About the Event</div>
+        <h2 class="section-title" id="about-heading">
+          Where Developers <span class="text-accent">Shape Tomorrow</span>
+        </h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <p class="lead-text">
+              StandOut 2026 is a two-day immersive experience designed for developers,
+              architects, and tech leaders who refuse to stand still. From deep-dive
+              workshops to visionary keynotes, every session is crafted to push boundaries.
+            </p>
+            <p>
+              Now in its fifth edition, StandOut has grown from a 200-person meetup into
+              one of Asia's most anticipated developer gatherings — attracting speakers
+              from Google, Meta, CERN, and dozens of pioneering startups.
+            </p>
+            <a href="#speakers" class="link-arrow">Meet the speakers <span aria-hidden="true">→</span></a>
+          </div>
+          <div class="about-visual">
+            <div class="about-card glass-card">
+              <div class="about-card__icon-wrap" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+              </div>
+              <h3 class="about-card__title">Innovation First</h3>
+              <p>Cutting-edge talks on AI, cloud, web, and systems engineering.</p>
+            </div>
+            <div class="about-card glass-card">
+              <div class="about-card__icon-wrap" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+              </div>
+              <h3 class="about-card__title">Real Connections</h3>
+              <p>Structured networking sessions and open lounges to meet your people.</p>
+            </div>
+            <div class="about-card glass-card">
+              <div class="about-card__icon-wrap" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+              </div>
+              <h3 class="about-card__title">Hands-On Workshops</h3>
+              <p>Eight workshops with take-home projects and expert mentors.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── KEY HIGHLIGHTS SECTION ───────────────────────────── -->
+    <section class="highlights-section section" id="highlights" aria-labelledby="highlights-heading">
+      <div class="container">
+        <div class="section-tag">Why Attend</div>
+        <h2 class="section-title" id="highlights-heading">
+          Key <span class="text-accent">Highlights</span>
+        </h2>
+        <ul class="highlights-list" role="list">
+          <li class="highlight-item">
+            <span class="highlight-icon" aria-hidden="true">✦</span>
+            <div>
+              <strong>60+ Technical Sessions</strong> spanning AI/ML, DevOps, Web3, Cloud Architecture, and Security.
+            </div>
+          </li>
+          <li class="highlight-item">
+            <span class="highlight-icon" aria-hidden="true">✦</span>
+            <div>
+              <strong>World-Class Keynote Speakers</strong> from leading tech companies and open-source foundations.
+            </div>
+          </li>
+          <li class="highlight-item">
+            <span class="highlight-icon" aria-hidden="true">✦</span>
+            <div>
+              <strong>8 In-Depth Workshops</strong> with limited seats — hands-on, mentor-led, project-based learning.
+            </div>
+          </li>
+          <li class="highlight-item">
+            <span class="highlight-icon" aria-hidden="true">✦</span>
+            <div>
+              <strong>Hackathon &amp; Code Challenges</strong> with ₹10,00,000 in prizes across five tracks.
+            </div>
+          </li>
+          <li class="highlight-item">
+            <span class="highlight-icon" aria-hidden="true">✦</span>
+            <div>
+              <strong>Exclusive Networking Lounge</strong> — curated meet-ups with investors, founders, and hiring managers.
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ── STATS SECTION ────────────────────────────────────── -->
+    <section class="stats-section section" id="stats" aria-labelledby="stats-heading">
+      <div class="container">
+        <div class="section-tag">By the Numbers</div>
+        <h2 class="section-title" id="stats-heading">
+          The <span class="text-accent">Scale</span> of It
+        </h2>
+
+        <div class="stats-grid">
+          <div class="stat-card glass-card">
+            <span class="stat-number" data-target="2500">0</span>
+            <span class="stat-label">Attendees</span>
+          </div>
+          <div class="stat-card glass-card">
+            <span class="stat-number" data-target="48">0</span>
+            <span class="stat-label">Speakers</span>
+          </div>
+          <div class="stat-card glass-card">
+            <span class="stat-number" data-target="60">0</span>
+            <span class="stat-label">Sessions</span>
+          </div>
+          <div class="stat-card glass-card">
+            <span class="stat-number" data-target="8">0</span>
+            <span class="stat-label">Workshops</span>
+          </div>
+        </div>
+
+        <!-- Quick Stats Table -->
+        <div class="table-wrapper" role="region" aria-label="Conference Quick Stats">
+          <table class="stats-table">
+            <caption class="table-caption">Quick Conference Statistics</caption>
+            <thead>
+              <tr>
+                <th scope="col">Metric</th>
+                <th scope="col">2024</th>
+                <th scope="col">2025</th>
+                <th scope="col">2026 (Est.)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Total Attendees</td>
+                <td>1,200</td>
+                <td>1,900</td>
+                <td>2,500</td>
+              </tr>
+              <tr>
+                <td>Speakers</td>
+                <td>28</td>
+                <td>38</td>
+                <td>48</td>
+              </tr>
+              <tr>
+                <td>Sessions &amp; Talks</td>
+                <td>32</td>
+                <td>45</td>
+                <td>60</td>
+              </tr>
+              <tr>
+                <td>Workshops</td>
+                <td>4</td>
+                <td>6</td>
+                <td>8</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── SPEAKERS SECTION ──────────────────────────────────── -->
+    <section class="speakers-section section" id="speakers" aria-labelledby="speakers-heading">
+      <div class="container">
+        <div class="section-tag">Speakers</div>
+        <h2 class="section-title" id="speakers-heading">
+          Voices That <span class="text-accent">Define the Future</span>
+        </h2>
+        <p class="section-lead">Industry leaders, open-source pioneers, and visionary engineers — all on one stage.</p>
+
+        <div class="speakers-grid">
+
+          <!-- Speaker 1 -->
+          <article class="speaker-article reveal-card">
+            <div class="speaker-photo-wrap">
+              <img
+                src="img1.jpg"
+                alt="Speaker photo placeholder"
+                class="speaker-photo"
+                width="600" height="450"
+                loading="lazy"
+              />
+              <div class="speaker-photo-overlay"></div>
+            </div>
+            <div class="speaker-body">
+              <h3 class="speaker-name">Priya Nair</h3>
+              <p class="speaker-role">Principal Engineer, Google DeepMind</p>
+              <p class="speaker-bio">Pioneering large-scale ML systems at DeepMind since 2019, with a focus on responsible AI deployment at global scale.</p>
+              <ul class="expertise-list" role="list" aria-label="Expertise areas">
+                <li class="expertise-tag">Machine Learning</li>
+                <li class="expertise-tag">Systems Design</li>
+                <li class="expertise-tag">Responsible AI</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- Speaker 2 -->
+          <article class="speaker-article reveal-card">
+            <div class="speaker-photo-wrap">
+              <img
+                src="img2.jpg"
+                alt="Speaker photo placeholder"
+                class="speaker-photo"
+                width="600" height="450"
+                loading="lazy"
+              />
+              <div class="speaker-photo-overlay"></div>
+            </div>
+            <div class="speaker-body">
+              <h3 class="speaker-name">Arjun Mehta</h3>
+              <p class="speaker-role">VP Engineering, Meta Open Source</p>
+              <p class="speaker-bio">Leads the infrastructure team behind React and GraphQL, driving open-source strategy for over 200 million developers worldwide.</p>
+              <ul class="expertise-list" role="list" aria-label="Expertise areas">
+                <li class="expertise-tag">Open Source</li>
+                <li class="expertise-tag">React</li>
+                <li class="expertise-tag">GraphQL</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- Speaker 3 -->
+          <article class="speaker-article reveal-card">
+            <div class="speaker-photo-wrap">
+              <img
+                src="img3.jpg"
+                alt="Speaker photo placeholder"
+                class="speaker-photo"
+                width="600" height="450"
+                loading="lazy"
+              />
+              <div class="speaker-photo-overlay"></div>
+            </div>
+            <div class="speaker-body">
+              <h3 class="speaker-name">Kavya Reddy</h3>
+              <p class="speaker-role">Staff SRE, CERN</p>
+              <p class="speaker-bio">Building the distributed systems that process petabytes of particle collision data, with expertise in ultra-low-latency pipelines.</p>
+              <ul class="expertise-list" role="list" aria-label="Expertise areas">
+                <li class="expertise-tag">Distributed Systems</li>
+                <li class="expertise-tag">SRE</li>
+                <li class="expertise-tag">Data Pipelines</li>
+              </ul>
+            </div>
+          </article>
+
+        </div>
+
+        <div class="section-action">
+          <a href="#" class="btn btn--outline">View All 48 Speakers <span class="btn-arrow">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── SCHEDULE SECTION ──────────────────────────────────── -->
+    <section class="schedule-section-home section" id="schedule" aria-labelledby="schedule-heading">
+      <div class="container">
+        <div class="section-tag">Schedule</div>
+        <h2 class="section-title" id="schedule-heading">
+          Two Days, <span class="text-accent">Packed with Purpose</span>
+        </h2>
+
+        <!-- Day Tabs -->
+        <div class="schedule-tabs" role="tablist" aria-label="Conference days">
+          <button class="schedule-tab schedule-tab--active" role="tab" aria-selected="true" data-day="day1">Day 1 — March 15</button>
+          <button class="schedule-tab" role="tab" aria-selected="false" data-day="day2">Day 2 — March 16</button>
+        </div>
+
+        <!-- Day 1 -->
+        <div class="schedule-day" id="day1" role="tabpanel">
+          <div class="schedule-timeline">
+
+            <div class="timeline-item reveal-card">
+              <div class="timeline-time">09:00</div>
+              <div class="timeline-content glass-card">
+                <span class="timeline-type timeline-type--keynote">Keynote</span>
+                <h3 class="timeline-title">Opening Keynote: The Next Decade of Software</h3>
+                <p class="timeline-speaker">Priya Nair — Google DeepMind</p>
+                <p class="timeline-desc">A sweeping look at how AI is reshaping the developer's role and what skills will matter most in the next ten years.</p>
+                <div class="timeline-meta">
+                  <span class="timeline-duration">60 min</span>
+                  <span class="timeline-hall">Main Hall</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="timeline-item timeline-item--break">
+              <div class="timeline-time">10:00</div>
+              <div class="timeline-content timeline-content--break">
+                <span>Morning Break &amp; Networking</span>
+                <span class="timeline-duration">30 min</span>
+              </div>
+            </div>
+
+            <div class="timeline-item reveal-card">
+              <div class="timeline-time">10:30</div>
+              <div class="timeline-content glass-card">
+                <span class="timeline-type timeline-type--talk">Talk</span>
+                <h3 class="timeline-title">Building with GraphQL at Scale</h3>
+                <p class="timeline-speaker">Arjun Mehta — Meta Open Source</p>
+                <p class="timeline-desc">Real-world lessons from running GraphQL across 200M+ users — schema design, federation, and performance pitfalls.</p>
+                <div class="timeline-meta">
+                  <span class="timeline-duration">45 min</span>
+                  <span class="timeline-hall">Hall A</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="timeline-item reveal-card">
+              <div class="timeline-time">11:30</div>
+              <div class="timeline-content glass-card">
+                <span class="timeline-type timeline-type--workshop">Workshop</span>
+                <h3 class="timeline-title">Zero to Production: Kubernetes on Bare Metal</h3>
+                <p class="timeline-speaker">Workshop Team</p>
+                <p class="timeline-desc">Hands-on workshop — bring your laptop. Walk away with a working multi-node cluster deployed on bare metal.</p>
+                <div class="timeline-meta">
+                  <span class="timeline-duration">90 min</span>
+                  <span class="timeline-hall">Workshop Room 1</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="timeline-item timeline-item--break">
+              <div class="timeline-time">13:00</div>
+              <div class="timeline-content timeline-content--break">
+                <span>Lunch &amp; Expo Floor Open</span>
+                <span class="timeline-duration">60 min</span>
+              </div>
+            </div>
+
+            <div class="timeline-item reveal-card">
+              <div class="timeline-time">14:00</div>
+              <div class="timeline-content glass-card">
+                <span class="timeline-type timeline-type--talk">Talk</span>
+                <h3 class="timeline-title">Ultra-Low Latency at Petabyte Scale</h3>
+                <p class="timeline-speaker">Kavya Reddy — CERN</p>
+                <p class="timeline-desc">Engineering data pipelines that must never drop a packet, from design to disaster recovery.</p>
+                <div class="timeline-meta">
+                  <span class="timeline-duration">45 min</span>
+                  <span class="timeline-hall">Hall B</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Day 2 -->
+        <div class="schedule-day schedule-day--hidden" id="day2" role="tabpanel">
+          <div class="schedule-timeline">
+
+            <div class="timeline-item reveal-card">
+              <div class="timeline-time">09:00</div>
+              <div class="timeline-content glass-card">
+                <span class="timeline-type timeline-type--keynote">Keynote</span>
+                <h3 class="timeline-title">Security in the Age of AI-Generated Code</h3>
+                <p class="timeline-speaker">Special Guest Speaker</p>
+                <p class="timeline-desc">As AI writes more of our software, how do we ensure it doesn't write our vulnerabilities too?</p>
+                <div class="timeline-meta">
+                  <span class="timeline-duration">60 min</span>
+                  <span class="timeline-hall">Main Hall</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="timeline-item timeline-item--break">
+              <div class="timeline-time">10:00</div>
+              <div class="timeline-content timeline-content--break">
+                <span>Morning Break &amp; Networking</span>
+                <span class="timeline-duration">30 min</span>
+              </div>
+            </div>
+
+            <div class="timeline-item reveal-card">
+              <div class="timeline-time">10:30</div>
+              <div class="timeline-content glass-card">
+                <span class="timeline-type timeline-type--talk">Talk</span>
+                <h3 class="timeline-title">Designing for Developer Experience</h3>
+                <p class="timeline-speaker">DX Panel — 4 Speakers</p>
+                <p class="timeline-desc">What separates a tool developers love from one they merely tolerate — a candid panel discussion.</p>
+                <div class="timeline-meta">
+                  <span class="timeline-duration">45 min</span>
+                  <span class="timeline-hall">Hall A</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="timeline-item reveal-card">
+              <div class="timeline-time">16:00</div>
+              <div class="timeline-content glass-card">
+                <span class="timeline-type timeline-type--keynote">Closing</span>
+                <h3 class="timeline-title">Hackathon Awards &amp; Closing Ceremony</h3>
+                <p class="timeline-speaker">Full Conference</p>
+                <p class="timeline-desc">Prize announcements, community shoutouts, and a look ahead at StandOut 2027.</p>
+                <div class="timeline-meta">
+                  <span class="timeline-duration">90 min</span>
+                  <span class="timeline-hall">Main Hall</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="section-action">
+          <a href="#" class="btn btn--outline">Download Full Schedule <span class="btn-arrow">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── SPONSORS SECTION ──────────────────────────────────── -->
+    <section class="sponsors-section section" id="sponsors" aria-labelledby="sponsors-heading">
+      <div class="sponsors-bg-glow" aria-hidden="true"></div>
+      <div class="container">
+        <div class="section-tag">Sponsors</div>
+        <h2 class="section-title" id="sponsors-heading">
+          Backed by <span class="text-accent">Industry Leaders</span>
+        </h2>
+        <p class="section-lead">StandOut 2026 is made possible by organizations that believe in the power of developer communities.</p>
+
+        <!-- Platinum -->
+        <div class="sponsor-tier tier-platinum">
+          <div class="sponsor-tier__label">Platinum</div>
+          <div class="sponsor-grid">
+            <div class="sponsor-card glass-card reveal-card">
+              <div class="sponsor-logo-wrap">
+                <img
+                  src="https://placehold.co/240x80/F6C1B6/3A2E2C?text=Platinum+Partner"
+                  alt="Platinum sponsor logo placeholder"
+                  class="sponsor-logo"
+                  width="240" height="80"
+                  loading="lazy"
+                />
+              </div>
+              <h3 class="sponsor-name">CloudCore Systems</h3>
+              <p class="sponsor-desc">Enterprise cloud infrastructure for the modern developer.</p>
+            </div>
+            <div class="sponsor-card glass-card reveal-card">
+              <div class="sponsor-logo-wrap">
+                <img
+                  src="https://placehold.co/240x80/F4A7A1/3A2E2C?text=Platinum+Partner"
+                  alt="Platinum sponsor logo placeholder"
+                  class="sponsor-logo"
+                  width="240" height="80"
+                  loading="lazy"
+                />
+              </div>
+              <h3 class="sponsor-name">NexaStack</h3>
+              <p class="sponsor-desc">Full-stack developer tooling and deployment pipelines.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Gold -->
+        <div class="sponsor-tier tier-gold">
+          <div class="sponsor-tier__label">Gold</div>
+          <div class="sponsor-grid">
+            <div class="sponsor-card glass-card reveal-card">
+              <div class="sponsor-logo-wrap">
+                <img
+                  src="https://placehold.co/200x70/FFF0A0/7A5C00?text=Gold+Partner"
+                  alt="Gold sponsor logo placeholder"
+                  class="sponsor-logo"
+                  width="200" height="70"
+                  loading="lazy"
+                />
+              </div>
+              <h3 class="sponsor-name">DataBridge</h3>
+              <p class="sponsor-desc">Real-time analytics at any scale.</p>
+            </div>
+            <div class="sponsor-card glass-card reveal-card">
+              <div class="sponsor-logo-wrap">
+                <img
+                  src="https://placehold.co/200x70/FFD84D/7A5C00?text=Gold+Partner"
+                  alt="Gold sponsor logo placeholder"
+                  class="sponsor-logo"
+                  width="200" height="70"
+                  loading="lazy"
+                />
+              </div>
+              <h3 class="sponsor-name">SecureLayer</h3>
+              <p class="sponsor-desc">Zero-trust security for cloud-native teams.</p>
+            </div>
+            <div class="sponsor-card glass-card reveal-card">
+              <div class="sponsor-logo-wrap">
+                <img
+                  src="https://placehold.co/200x70/F6C1B6/7A5C00?text=Gold+Partner"
+                  alt="Gold sponsor logo placeholder"
+                  class="sponsor-logo"
+                  width="200" height="70"
+                  loading="lazy"
+                />
+              </div>
+              <h3 class="sponsor-name">Orbit Labs</h3>
+              <p class="sponsor-desc">Developer-first API management platform.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Silver -->
+        <div class="sponsor-tier tier-silver">
+          <div class="sponsor-tier__label">Silver</div>
+          <div class="sponsor-grid sponsor-grid--small">
+            <div class="sponsor-card glass-card reveal-card">
+              <div class="sponsor-logo-wrap">
+                <img
+                  src="https://placehold.co/180x60/E8E8F0/505060?text=Silver+Partner"
+                  alt="Silver sponsor logo placeholder"
+                  class="sponsor-logo"
+                  width="180" height="60"
+                  loading="lazy"
+                />
+              </div>
+              <h3 class="sponsor-name">PulseDevs</h3>
+            </div>
+            <div class="sponsor-card glass-card reveal-card">
+              <div class="sponsor-logo-wrap">
+                <img
+                  src="https://placehold.co/180x60/C8C8D8/505060?text=Silver+Partner"
+                  alt="Silver sponsor logo placeholder"
+                  class="sponsor-logo"
+                  width="180" height="60"
+                  loading="lazy"
+                />
+              </div>
+              <h3 class="sponsor-name">Stackform</h3>
+            </div>
+            <div class="sponsor-card glass-card reveal-card">
+              <div class="sponsor-logo-wrap">
+                <img
+                  src="https://placehold.co/180x60/E8E8F0/505060?text=Silver+Partner"
+                  alt="Silver sponsor logo placeholder"
+                  class="sponsor-logo"
+                  width="180" height="60"
+                  loading="lazy"
+                />
+              </div>
+              <h3 class="sponsor-name">InfraPilot</h3>
+            </div>
+            <div class="sponsor-card glass-card reveal-card">
+              <div class="sponsor-logo-wrap">
+                <img
+                  src="https://placehold.co/180x60/C8C8D8/505060?text=Silver+Partner"
+                  alt="Silver sponsor logo placeholder"
+                  class="sponsor-logo"
+                  width="180" height="60"
+                  loading="lazy"
+                />
+              </div>
+              <h3 class="sponsor-name">ByteRoute</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="sponsor-cta glass-card">
+          <p>Interested in sponsoring StandOut 2026?</p>
+          <a href="#contact" class="btn btn--primary btn--sm">Get the Sponsor Kit <span class="btn-arrow">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── REGISTER SECTION ──────────────────────────────────── -->
+    <section class="register-section section" id="register" aria-labelledby="register-heading">
+      <div class="register-bg-blob register-bg-blob--1" aria-hidden="true"></div>
+      <div class="register-bg-blob register-bg-blob--2" aria-hidden="true"></div>
+      <div class="container">
+        <div class="section-tag">Register</div>
+        <h2 class="section-title" id="register-heading">
+          Claim Your <span class="text-accent">Seat</span>
+        </h2>
+        <p class="section-lead">Early-bird pricing ends February 1, 2026. Choose the pass that works for you.</p>
+
+        <!-- Pricing Tiers -->
+        <div class="pricing-grid">
+
+          <div class="pricing-card glass-card reveal-card">
+            <div class="pricing-tier-label">Community</div>
+            <div class="pricing-amount">
+              <span class="pricing-currency">₹</span>
+              <span class="pricing-price">2,999</span>
+            </div>
+            <p class="pricing-period">per person</p>
+            <ul class="pricing-features" role="list">
+              <li>All general sessions</li>
+              <li>Conference swag bag</li>
+              <li>Networking lounge access</li>
+              <li>Digital resources</li>
+            </ul>
+            <a href="#register-form" class="btn btn--outline btn--block">Select Plan</a>
+          </div>
+
+          <div class="pricing-card pricing-card--featured glass-card reveal-card">
+            <div class="pricing-badge">Most Popular</div>
+            <div class="pricing-tier-label">Professional</div>
+            <div class="pricing-amount">
+              <span class="pricing-currency">₹</span>
+              <span class="pricing-price">5,999</span>
+            </div>
+            <p class="pricing-period">per person</p>
+            <ul class="pricing-features" role="list">
+              <li>All general sessions</li>
+              <li>2 workshop seats of your choice</li>
+              <li>Priority networking access</li>
+              <li>Speaker meet &amp; greet</li>
+              <li>Recorded session access (90 days)</li>
+            </ul>
+            <a href="#register-form" class="btn btn--primary btn--block">Select Plan <span class="btn-arrow">→</span></a>
+          </div>
+
+          <div class="pricing-card glass-card reveal-card">
+            <div class="pricing-tier-label">Enterprise</div>
+            <div class="pricing-amount">
+              <span class="pricing-currency">₹</span>
+              <span class="pricing-price">12,999</span>
+            </div>
+            <p class="pricing-period">per person</p>
+            <ul class="pricing-features" role="list">
+              <li>All sessions + all workshops</li>
+              <li>VIP lounge &amp; private dinners</li>
+              <li>1:1 speaker sessions</li>
+              <li>Perpetual recorded access</li>
+              <li>Dedicated team table (5 seats)</li>
+            </ul>
+            <a href="#register-form" class="btn btn--outline btn--block">Select Plan</a>
+          </div>
+
+        </div>
+
+        <!-- Registration Form -->
+        <div class="register-form-wrap glass-card" id="register-form">
+          <h3 class="register-form-title">Complete Your Registration</h3>
+          <form class="register-form" novalidate aria-label="Registration Form">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="reg-fname">First Name <span class="required-star" aria-hidden="true">*</span></label>
+                <input type="text" id="reg-fname" name="first_name" placeholder="Priya" required />
+              </div>
+              <div class="form-group">
+                <label for="reg-lname">Last Name <span class="required-star" aria-hidden="true">*</span></label>
+                <input type="text" id="reg-lname" name="last_name" placeholder="Nair" required />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="reg-email">Email Address <span class="required-star" aria-hidden="true">*</span></label>
+                <input type="email" id="reg-email" name="email" placeholder="you@company.com" required />
+              </div>
+              <div class="form-group">
+                <label for="reg-org">Organisation</label>
+                <input type="text" id="reg-org" name="organisation" placeholder="Company / Startup / Independent" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="reg-pass">Ticket Type <span class="required-star" aria-hidden="true">*</span></label>
+              <select id="reg-pass" name="ticket_type" required>
+                <option value="" disabled selected>Select a ticket tier</option>
+                <option value="community">Community — ₹2,999</option>
+                <option value="professional">Professional — ₹5,999</option>
+                <option value="enterprise">Enterprise — ₹12,999</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="reg-workshops">Workshop Preference</label>
+              <select id="reg-workshops" name="workshop">
+                <option value="">No workshop (Community pass)</option>
+                <option value="k8s">Kubernetes on Bare Metal</option>
+                <option value="ai">Hands-On LLM Fine-Tuning</option>
+                <option value="sec">Advanced Web Security</option>
+                <option value="rust">Systems Programming in Rust</option>
+              </select>
+            </div>
+            <div class="form-actions">
+              <button type="submit" class="btn btn--primary btn--lg">
+                Register Now
+                <span class="btn-arrow" aria-hidden="true">→</span>
+              </button>
+              <p class="form-note">Secure payment via Razorpay. You'll receive a confirmation email within 24 hrs.</p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── CONTACT SECTION ───────────────────────────────────── -->
+    <section class="contact-section section" id="contact" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="section-tag">Contact</div>
+        <h2 class="section-title" id="contact-heading">
+          Get in <span class="text-accent">Touch</span>
+        </h2>
+
+        <div class="contact-grid">
+
+          <!-- Contact Info -->
+          <div class="contact-info">
+
+            <div class="contact-info-item reveal-card">
+              <div class="contact-info-icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div class="contact-info-text">
+                <h4>Venue</h4>
+                <p>HICC, Novotel Complex,<br />Hyderabad, Telangana 500032</p>
+              </div>
+            </div>
+
+            <div class="contact-info-item reveal-card">
+              <div class="contact-info-icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <div class="contact-info-text">
+                <h4>Email</h4>
+                <a href="mailto:hello@standout2026.io">hello@standout2026.io</a>
+                <a href="mailto:sponsors@standout2026.io">sponsors@standout2026.io</a>
+              </div>
+            </div>
+
+            <div class="contact-info-item reveal-card">
+              <div class="contact-info-icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13.8a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 3h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 10.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 17.92z"/></svg>
+              </div>
+              <div class="contact-info-text">
+                <h4>Phone</h4>
+                <a href="tel:+914023456789">+91 40 2345 6789</a>
+              </div>
+            </div>
+
+            <!-- Map Placeholder -->
+            <div class="contact-map reveal-card">
+              <div class="contact-map-placeholder">
+                <img
+                  src="img4.jpeg"
+                  alt="Map showing HICC Hyderabad venue location"
+                  width="560" height="280"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact-form-wrap glass-card reveal-card">
+            <h3 class="contact-form-title">Send us a Message</h3>
+            <form class="contact-form" novalidate aria-label="Contact Form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="ct-name">Full Name <span class="required-star" aria-hidden="true">*</span></label>
+                  <input type="text" id="ct-name" name="name" placeholder="Your name" required />
+                </div>
+                <div class="form-group">
+                  <label for="ct-email">Email <span class="required-star" aria-hidden="true">*</span></label>
+                  <input type="email" id="ct-email" name="email" placeholder="you@example.com" required />
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="ct-subject">Subject <span class="required-star" aria-hidden="true">*</span></label>
+                <select id="ct-subject" name="subject" required>
+                  <option value="" disabled selected>What is this about?</option>
+                  <option value="general">General Enquiry</option>
+                  <option value="sponsorship">Sponsorship</option>
+                  <option value="speaking">Speaking Opportunity</option>
+                  <option value="press">Press &amp; Media</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="ct-message">Message <span class="required-star" aria-hidden="true">*</span></label>
+                <textarea id="ct-message" name="message" rows="5" placeholder="Tell us how we can help..." required></textarea>
+              </div>
+              <div class="form-actions">
+                <button type="submit" class="btn btn--primary">
+                  Send Message
+                  <span class="btn-arrow" aria-hidden="true">→</span>
+                </button>
+              </div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+
+        <!-- Brand Column -->
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <span class="brand-icon" aria-hidden="true">⟨/⟩</span>
+            <span class="brand-text">StandOut <span class="brand-year">2026</span></span>
+          </div>
+          <p class="footer-tagline">
+            The premier developer conference.<br />March 15–16, 2026 · Hyderabad, India.
+          </p>
+        </div>
+
+        <!-- Pages Column -->
+        <nav class="footer-nav" aria-label="Footer Navigation">
+          <h3 class="footer-heading">Pages</h3>
+          <ul role="list">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#speakers">Speakers</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+            <li><a href="#sponsors">Sponsors</a></li>
+          </ul>
+        </nav>
+
+        <!-- More Column -->
+        <nav class="footer-nav" aria-label="More Links">
+          <h3 class="footer-heading">More</h3>
+          <ul role="list">
+            <li><a href="#register">Register</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </nav>
+
+        <!-- Contact Column -->
+        <div class="footer-contact">
+          <h3 class="footer-heading">Get In Touch</h3>
+          <address>
+            <p>HICC, Novotel Complex,<br />Hyderabad, Telangana 500032</p>
+            <p><a href="mailto:hello@standout2026.io">hello@standout2026.io</a></p>
+            <p><a href="tel:+914023456789">+91 40 2345 6789</a></p>
+          </address>
+        </div>
+
+      </div>
+
+      <!-- Footer Bottom Bar -->
+      <div class="footer-bottom">
+        <p class="footer-copy">
+          &copy; 2026 StandOut. All rights reserved.
+        </p>
+        <p class="footer-legal">
+          <a href="#">Privacy Policy</a> &middot;
+          <a href="#">Terms of Service</a> &middot;
+          <a href="#">Code of Conduct</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============================================================
+       JAVASCRIPT
+  ============================================================ -->
+  <script>
+    /* ─── Mobile Navigation ─── */
+    const toggle = document.getElementById('navToggle');
+    const navLinks = document.querySelector('.nav-links');
+    toggle.addEventListener('click', () => {
+      const expanded = toggle.getAttribute('aria-expanded') === 'true';
+      toggle.setAttribute('aria-expanded', String(!expanded));
+      navLinks.classList.toggle('nav-links--open');
+    });
+
+    /* Close mobile nav on link click */
+    navLinks.querySelectorAll('.nav-link').forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('nav-links--open');
+        toggle.setAttribute('aria-expanded', 'false');
+      });
+    });
+
+    /* ─── Active Nav on Scroll ─── */
+    const sections = document.querySelectorAll('section[id]');
+    const navItems = document.querySelectorAll('.nav-link');
+    const header = document.getElementById('site-header');
+
+    const scrollHandler = () => {
+      header.classList.toggle('scrolled', window.scrollY > 60);
+      let current = '';
+      sections.forEach(sec => {
+        if (window.scrollY >= sec.offsetTop - 100) current = sec.id;
+      });
+      navItems.forEach(link => {
+        link.classList.toggle('active', link.getAttribute('href') === `#${current}`);
+      });
+    };
+    window.addEventListener('scroll', scrollHandler, { passive: true });
+
+    /* ─── Counter Animation ─── */
+    const counters = document.querySelectorAll('.stat-number');
+    const counterObs = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (!entry.isIntersecting) return;
+        const el = entry.target;
+        const target = +el.dataset.target;
+        const duration = 1600;
+        const step = target / (duration / 16);
+        let current = 0;
+        const update = () => {
+          current = Math.min(current + step, target);
+          el.textContent = Math.floor(current).toLocaleString();
+          if (current < target) requestAnimationFrame(update);
+        };
+        requestAnimationFrame(update);
+        counterObs.unobserve(el);
+      });
+    }, { threshold: 0.4 });
+    counters.forEach(c => counterObs.observe(c));
+
+    /* ─── Scroll Reveal ─── */
+    const revealEls = document.querySelectorAll('.reveal-card');
+    const revealObs = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+          revealObs.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12 });
+    revealEls.forEach(el => revealObs.observe(el));
+
+    /* ─── Schedule Tabs ─── */
+    const tabs = document.querySelectorAll('.schedule-tab');
+    const days = document.querySelectorAll('.schedule-day');
+    tabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        tabs.forEach(t => { t.classList.remove('schedule-tab--active'); t.setAttribute('aria-selected', 'false'); });
+        days.forEach(d => d.classList.add('schedule-day--hidden'));
+        tab.classList.add('schedule-tab--active');
+        tab.setAttribute('aria-selected', 'true');
+        document.getElementById(tab.dataset.day).classList.remove('schedule-day--hidden');
+      });
+    });
+  </script>
+
+</body>
+</html>
